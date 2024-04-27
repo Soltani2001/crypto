@@ -2,7 +2,7 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
 import { Pagination } from "@mui/material";
-export default function App() {
+export default function Paginationn() {
   const [page, setPage] = useState(1);
   const [api, setApi] = useState([]);
   useEffect(() => {
